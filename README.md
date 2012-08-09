@@ -1,0 +1,1 @@
+This is pretty self-explanatory. The command line prompts will walk you through it.
