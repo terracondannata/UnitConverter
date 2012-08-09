@@ -34,11 +34,10 @@ how_many = gets.chomp.to_f
 
 # breathe.
 
+converter = Converter.new
 if unit == "i"
-	converter = Converter.new
 	puts converter.convert_inches_to_centimeters(how_many)
 elsif unit == "c"
-	converter = Converter.new
 	puts converter.convert_centimeters_to_inches(how_many)
 end
 
